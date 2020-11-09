@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.HomeFragment"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/btnChapter1"
+        android:layout_marginTop="100dp"
+        android:text="CHƯƠNG I: ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ CỦA HÀM SỐ"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+
+    <Button
+        android:id="@+id/btnChapter2"
+        android:text="CHƯƠNG II: ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ CỦA HÀM SỐ"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+
+    <Button
+        android:id="@+id/btnChapter3"
+        android:text="CHƯƠNG III: NGUYÊN HÀM - TÍCH PHÂN VÀ ỨNG DỤNG"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+
+    <Button
+        android:id="@+id/btnChapter4"
+        android:text="CHƯƠNG IV: SỐ PHỨC"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+</LinearLayout>

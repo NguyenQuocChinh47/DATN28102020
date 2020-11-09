@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chapter1.Chapter1"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar_chapter1"
+        layout="@layout/toolbar_chapter"/>
+    <Button
+        android:id="@+id/btn_unit1"
+        android:layout_margin="10dp"
+        android:text="Bài 1. Sự đồng biến, nghịch biến của hàm số"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_unit2"
+        android:layout_margin="10dp"
+        android:text="Bài 2. Cực trị của hàm số"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_unit3"
+        android:layout_margin="10dp"
+        android:text="Bài 3. Giá trị lớn nhất và giá trị nhỏ nhất của hàm số"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
